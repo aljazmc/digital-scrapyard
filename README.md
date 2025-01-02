@@ -4,20 +4,23 @@ A dumping ground for experimental react components
 
 ### > Requirements:
 
-* Node
+* Node version 20 or later
+
 * Optional: Docker with docker compose
 * Optional: GNU/Linux
 
 ### > Setup:
 
 ```
-Without Docker:
+## development setup without Docker:
+
 1.) yarn install
 2.) yarn serve
 ```
 
 ```
-With Docker on GNU/Linux:
+## development setup with Docker on GNU/Linux:
+
 1.) ./project start
 ```
 
