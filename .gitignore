@@ -3,6 +3,7 @@ docker-compose.yml
 .cache
 .config
 .yarn
+.yarnrc
 node_modules
 yarn.lock
 
