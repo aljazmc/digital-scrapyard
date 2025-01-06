@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router";
 
 export default function Navigation() {
-  return(
+  return (
     <div>
       <nav>
         <NavLink to="/" end>
