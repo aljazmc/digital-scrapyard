@@ -40,17 +40,17 @@ clean() {
 
     docker compose down -v --rmi all --remove-orphans
     rm -rf \
-        docker-compose.yml \
-        node_modules \
-        yarn.lock \
         .cache \
         .config \
         .npm \
         .yarn/berry \
         .yarn/bin \
-        .yarn/unplugged \
         .yarn/install-state.gz \
-        .yarnrc
+        .yarn/unplugged \
+        .yarnrc \
+        docker-compose.yml \
+        node_modules \
+        yarn.lock
 
 }
 
