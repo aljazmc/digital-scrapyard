@@ -10,11 +10,10 @@ describe("App", () => {
 
   beforeEach(() => {
     container = document.createElement("div");
-    document.body.replaceChildren(container);
   });
 
   it("renders the App component", () => {
     render(<App />);
-    expect(document.body.textContent).toContain("App is here!");
+    expect(container.textContent).toMatch("App is here!");
   });
 });
